@@ -1,8 +1,9 @@
 <?php
 
-$cookie = ["name"];
-
 function remove_cookie($cookie) {
-    unset_cookie();
+    isset($_COOKIE['remember_user']) ;
+        unset($_COOKIE[$cookie]); 
+        setcookie($cookie, null, -1);
+    
 }
 ?>
