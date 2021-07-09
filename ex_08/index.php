@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Hi bitch</title>
+        <title>Hi</title>
     </head>
     <body>
     
